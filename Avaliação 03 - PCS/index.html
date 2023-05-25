@@ -1,0 +1,69 @@
+<!DOCTYPE html> <!-- Informar a seu navegador a qual versão do HTML a página é escrita  -->
+<html> <!-- Tag que indica o início do documento HTML -->
+<head> <!-- Parte que define o cabeçalho de seu documento, é onde innvoca o CSS e JavaScript.-->
+    <link rel="stylesheet" type="text/css" href="style.css"/> <!-- Invocar função CSS no HTML, puxando de um arquivo externo da maquina -->
+    <script src="javascript.js"></script> <!-- Importar o arquivo JAVASCRIPT, que contem as funções que serão utilizadas e na página -->
+</head> <!-- Seção que define o FIM de seu cabeçalho -->
+<body> <!--  Aqui é onde fica todo o conteúdo da página semelhante ao corpo. -->
+    <section> <!-- Representa o primeiro quadrado que está agrupando e organizando o conteudo do titulo. -->
+        <h1>Avaliação 03 - PCS</h1> <!-- Função que define um cabeçalho nivel 1 sendo "grande" -->
+    </section> <!-- Fechamento do primeiro quadrado com o conteudo do titulo -->
+    <br> <!-- Funcao de pular linha para organização -->
+    <section> <!-- Representa o segundo quadrado que está agrupando e organizando  o conteudo do formulario -->
+        <br> <!-- Funcao de pular linha para organização -->
+        <form id="formCadastro"> <!-- Responsavel para agrupar e organizar os conteudos que serão pedidos -->
+            <label for="txtMarca">Marca:</label> <!-- Responsavel para colocar um "titulo" na caixa de texto MARCA -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <input type="text" id="txtMarca" required> <!-- Caixa de texto para colocar o conteudo da MARCA do veiculo -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <label for="txtModelo">Modelo:</label> <!-- Responsavel para colocar um "titulo" na caixa de texto MODELO -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <input type="text" id="txtModelo" required> <!-- Caixa de texto para colocar o conteudo da MARCA do veiculo -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <label for="txtAno">Ano:</label>  <!-- Responsavel para colocar um "titulo" na caixa de texto ANO -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <input type="number" id="txtAno" required> <!-- Caixa de texto para colocar o conteudo do ANO do veiculo -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <label for="txtCor">Cor:</label> <!-- Responsavel para colocar um "titulo" na caixa de texto COR -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <input type="text" id="txtCor" required> <!-- Caixa de texto para colocar o conteudo da COR do veiculo -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <br> <!-- Funcao de pular linha para organização -->
+            <button type="submit" onclick="preencheObjeto()">Adiciona Carro</button> <!-- Botão para ADICIONAR O CARRO na lista de veiculos -->
+            <br> <!-- Funcao de pular linha para organização -->
+        </form> <!-- Fechamento do formulario dos conteudos -->
+    </section> <!-- Fechamento do segundo quadrado com o conteudo do formulario -->
+    <br> <!-- Funcao de pular linha para organização -->
+    <section class="section2"> <!-- Representa o terceiro quadrado que está agrupando e organizando o conteudo que será mostrado sobre a lista de veiculos -->
+        <br> <!-- Funcao de pular linha para organização -->
+        <button onclick="mostrarCarro()">Mostrar Todos</button> <!-- Botão para MOSTRAR O CARRO da lista de veiculos -->
+        <br> <!-- Funcao de pular linha para organização -->
+        <label id="lblMostrarCarro">...</label> <!-- Responsavel para organizar e mostrar os carros da LISTA DE CARROS que será impressa -->
+        <br> <!-- Funcao de pular linha para organização -->
+    </section> <!-- Fechamento do terceiro quadrado com o conteudo da LISTA DE CARROS  -->
+</body> <!-- Fechamento do corpo -->
+</html> <!-- Tag que inica o FIM de seu documento -->
+
+
+
+<!-- Feedback sobre o site e a AVALIAÇÃO 03 -->
+
+<!-- Achei o site muito básico e com um sistema funcional, mas acho que as opções dele poderiam ser melhoradas, como a questão do layout, armazenamento de dados e...
+liberar os dados para o úsuario, podendo adicionar opções de confirmar ao adicionar o item a lista (Utilizando um ALERT ou algo do tipo) e posteriormente excluir o ...
+item da lista e confirmação se tem certeza (Com um botão de REMOVER), também a questão de layout mostrar separadamente os itens que estão na lista como:
+Marca:
+Modelo:
+Ano:
+Cor:
+E logo mostrará a imagem do carro informado e terá um campo para caso deseja ver outra imagem. Assim garantirá uma boa experiência para os usuários que acessam o site ...
+e terá uma melhor organização e estrutura, tendo um site totalmente interativo e favoravel a todos que utlizarem ele. -->
+
+
+
+
+
+
+

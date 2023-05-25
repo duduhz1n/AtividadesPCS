@@ -1,0 +1,10 @@
+Exemplos Switch ( Escolha Caso )
+
+
+a = 3
+switch (a) {
+    case 1: console.log ('Bloco 1'); break;
+    case 2: console.log ('Bloco 2'); break;
+    case 3: console.log ('Bloco 3'); break;
+    default: console.log ('Bloco alternativo')
+}

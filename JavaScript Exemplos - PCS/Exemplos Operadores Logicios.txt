@@ -1,0 +1,23 @@
+x = 10
+10
+
+y = 20
+20
+
+x> 5 && y > 15
+true
+
+x > 5 || y > 25
+true
+
+x > 5 && y > 25
+false
+
+x > 15 || y > 25
+false
+
+!(y>25)
+true
+
+!y>25
+false

@@ -1,0 +1,36 @@
+var dl = document.getElementById("dogs_list")
+undefined
+
+dl
+<ul id="dogs_list">_</ul>
+
+var dli = dl.getElementsByTagName("li")
+undefined
+
+dli
+HTMLCollection(4) [li, li, li, li]
+
+dli[2]
+<li>::market" Pastor Alemão "</li>
+
+dl.removeChild(dli[2])
+<li> Pastor Alemão </li>
+
+
+
+
+/* APAGAR GATO */
+var cl = document.getElementById("cats_list")
+undefined
+
+var cli = cl.getElementsByTagName("li")
+undefined
+
+cli
+HTMLCollection(4) [li, li, li, li
+
+cli[3]
+<li> ... </li>
+
+cl.removeChild(cli[3])
+<li> Sphynx </li>

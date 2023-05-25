@@ -1,0 +1,12 @@
+Exemplo While (Enquanto)
+
+x = 1
+
+while (x <=10) { console.log (x); x++ }
+
+
+Exemplo Faça Enquanto
+
+x = 10
+
+do {console.log(x); x--;} while (x>0)

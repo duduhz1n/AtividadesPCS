@@ -1,0 +1,100 @@
+x = 10
+10
+
+x == 10
+true
+
+x === 10
+true
+
+x != 10
+false
+
+x !== 10
+false
+
+x > 10
+false
+
+x >= 10
+true
+
+x < 10
+false
+
+x <= 10
+true
+
+z = "10"
+'10'
+x == z
+true
+
+x != z
+false
+
+x === z
+false
+
+x !== z
+true
+
+10 == "10"
+true
+
+"10" == 10
+true
+
+10 === "10"
+false
+
+10 !== "10"
+true
+
+0 == ""
+true
+
+0 === ""
+false
+
+0 == false
+true
+
+1 == true
+true
+
+2 == true
+false
+
+"" == false
+true
+
+undefined == null
+true
+
+0 == null
+false
+
+x = 10
+10
+
+y = 20
+20
+
+x> 5 && y > 15
+true
+
+x > 5 || y > 25
+true
+
+x > 5 && y > 25
+false
+
+x > 15 || y > 25
+false
+
+!(y>25)
+true
+
+!y>25
+false

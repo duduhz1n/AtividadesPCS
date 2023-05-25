@@ -1,0 +1,77 @@
+body{ /* Define estilos para o corpo */
+    background-color: rgb(233, 225, 216); /* Define a cor de fundo */
+    display: flex; /* Configura o layout flexível para o corpo  */
+    flex-direction: column; /* Define a direção da flexão como coluna */
+    flex-wrap: nowrap; /* Impede a quebra de linha dos itens */
+    align-content: center; /* Alinha o conteúdo verticalmente ao centro */
+    justify-content: center; /* Alinha o conteúdo verticalmente ao centro  */
+    align-items: center; /* Alinha os itens ao centro */
+    font-family:Arial, Helvetica, sans-serif; /* Define o tipo de fonte usada */
+}  /* Fim do estilo do body */
+
+section{ /* Estilos para seção 1 */
+    
+    display: flex; /*Configura o layout flexível para o corpo  */
+    background-color: rgb(211, 211, 211); /* Define a cor de fundo  */
+    border-radius: 20px; /* Define o raio de borda para criar cantos arredondados. */
+    width: 60%; /* Tamanho que será definido para a seção 1 na horizontal */
+    flex-direction: column; /* Define a direção da flexão como coluna  */
+    flex-wrap: nowrap; /* Impede a quebra de linha dos itens */
+    align-content: center;  /* Alinha o conteúdo verticalmente ao centro */
+    justify-content: center;  /* Alinha o conteúdo verticalmente ao centro */
+    align-items: center;  /* Alinha os itens ao centro */
+
+} /* Fim do estilo da section 1 */
+.section2{  /* Estilos para a seção 2 */
+    display: flex;  /* Usa um layout flexível para as seção 2 */
+    background-color: rgb(211, 211, 211);  /* Define a cor de fundo */
+    border-radius: 20px;  /* Define o raio de borda para criar cantos arredondados */
+    width: 60%;  /* Tamanho que será definido para a seção 2 na horizontal  */
+    flex-direction: column; /* Define a direção da flexão como coluna */
+    flex-wrap: wrap; /* Impede a quebra de linha dos itens */
+    align-content: center; /* Alinha o conteúdo verticalmente ao centro */
+    justify-content: flex-start;  /* Alinha horizontalmente os elementos  */
+    align-items: flex-start  /* Alinha  os elemtnos tanto na vertical quanto na horizontal */
+} /* Fim do estilo da section 2 */
+
+input{  /* Responsavel para dar estilos aos campos de texto */
+    background-color: white;  /* Define a cor de fundo */
+    border: 0;  /* Define que não tera borda nos campos de texto */
+    border-radius: 12px;  /* Define o raio de borda para criar cantos arredondados */
+    padding: 4px;  /* Define o preenchimento para criar espaçamento ao redor dos inputs */
+    margin: 5px;  /* Define a margem ao redor dos inputs */
+    width: 70%;  /* Tamanho que será definido para o campo de texto na horizontal */
+    height: 25px; /* Tamanho que será definido para o campo de texto na vertical */
+} /* Fim do estilo dos campos de texto */
+
+button{  /* Responsavel para dar estilos aos botões */
+    background-color: rgb(66, 66, 128);  /* Define a cor de fundo */
+    border-color: white; /* Define a cor da borda para branco */
+    border-radius: 30px; /* Define o raio de borda para criar cantos arredondados */
+    padding: 14px;  /* Define o preenchimento para criar espaçamento ao redor do botao */
+    margin: 13px;  /* Define a margem ao redor dos botoes */
+    color: white;  /* Define a cor do texto  */
+} /* Fim do estilo do botao */
+
+label{  /* Responsavel para dar estilos aos textos */
+    padding: 3px;  /* Define o preenchimento para criar espaçamento ao redor da caixa de texto */
+    font-weight: bold;  /* Define a fonte em negrito */
+    color: rgb(0, 15, 65);  /* Define a cor que será os textos da LISTA DE CARROS */
+} /* Fim do estilo dos textos */
+
+form{  /* Responsavel para dar estilos ao formulario  */
+    padding: 15px;  /* Define o preenchimento para criar espaçamento ao redor do formulário */
+    font-weight: bold;  /* Define a fonte em negrito */
+    color: rgb(0, 15, 65);  /* Define a cor do texto */
+    font-size: small;  /* Define o tamanho da fonte para pequeno */
+    width: 80%;  /* Define a largura do formulário */
+    display: flex;  /* Usa um layout flexível */
+    flex-direction: column;  /* Configura a direção da flexão como coluna */
+    flex-wrap: nowrap;  /* Impede a quebra de linha dos itens */
+    align-content: space-between;  /* Alinha o conteúdo verticalmente ao centro */
+    justify-content: center;  /* Alinha o conteúdo verticalmente ao centro */
+    align-items: center;  /* Alinha os itens ao centro */
+} /* Fim dos estilos do formulario */
+
+
+

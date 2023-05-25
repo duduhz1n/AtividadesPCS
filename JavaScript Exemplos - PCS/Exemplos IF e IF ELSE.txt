@@ -1,0 +1,50 @@
+Exemplos IF E IF ELSE
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+form_ok = true
+true
+if (form_ok) console.log ("dados serão enviados!")
+VM537:1 dados serão enviados!
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+form_ok = true
+true
+if (form_ok) console.log ("dados serão enviados!"); else alert ("preenchimento incorreto")
+VM770:1 dados serão enviados!
+
+form_ok = false
+false
+if (form_ok) console.log ("dados serão enviados!"); else alert ("preenchimento incorreto")
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Exemplo de contador:
+
+x = 10
+10
+y = 20
+20
+if (x > 5 && y > 15) {x++;y++;} else {x--, y--}
+20
+x
+11
+y
+21
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+peso = 8
+8
+if (peso <=10) { console.log ("Pode embarcar") }
+else if (peso <=23) { console.log ("Deve despachar") }
+
+peso = 30
+30
+if (peso <=10) { console.log ("Pode embarcar") }
+else if (peso <=23) { console.log ("Deve despachar") }
+else { console.log ("Vai pagar por excesso") }
+Vai pagar por excesso
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 

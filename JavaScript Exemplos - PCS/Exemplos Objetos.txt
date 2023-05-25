@@ -1,0 +1,9 @@
+var consulta = {
+	id: 9873,
+	cliente: { id: 1065, nome: "Alberto Gaspar"},
+	especialidade: { id: 45, nome: "Geriatria"},
+	especialista: { id: 301, nome: "Dr. Ernani Mendonça"},
+	agendamento: "2019-02-26 10:30",
+	convenio: true
+}
+	
